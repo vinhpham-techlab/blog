@@ -33,7 +33,7 @@ brew install hugo
 
 - Windows (with Chocolatey):
 
-```sh 
+```sh
 choco install hugo -confirm
 ```
 
@@ -309,7 +309,6 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-
 ### Step 7: Deploy to GitHub Pages
 
 1. Create a GitHub repository named `blog.github.io`.
@@ -318,7 +317,7 @@ jobs:
 ```bash
 git add .
 git commit -m "Initial portfolio commit"
-git remote add origin https://github.com/yourusername/blog.github.io.git
+git remote add origin https://github.com/yourusername/blog.git
 git branch -M main
 git push -u origin main
 ```
