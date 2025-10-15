@@ -1,0 +1,86 @@
+baseurl = "https://vinhpham-techlab.github.io"
+DefaultContentLanguage = "en"
+title = "Data Engineer"
+theme = "github.com/halogenica/beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+
+[pagination]
+  pagerSize = 5
+
+[Services]
+  [Services.Disqus]
+    # Shortname = "XXX"
+  [Services.googleAnalytics]
+    # id = "XXX"
+
+[Params]
+  homeTitle = "Data Engineer"
+  subtitle = "Data Engineer| Building Scalable Data Platforms"
+  mainSections = ["post"]
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = true
+
+[Params.author]
+  name = "Vinh Pham"
+  website = "https://vinhpham-techlab.github.io/blog"
+  email = "phamtanvinh.me@gmail.com"
+  github = "vinhpham-techlab"
+  gitlab = "phamtanvinh.me"
+  linkedin = "vinh-pham-444314148"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  weight = 2
+
+[[menu.main]]
+  parent = "projects"
+  name = "Data Platform"
+  url = "post/data-platform"
+  weight = 1
+
+[[menu.main]]
+  parent = "projects"
+  name = "Infrastructure"
+  url = "post/infrastructure"
+  weight = 2
+
+[[menu.main]]
+  parent = "projects"
+  name = "Databases"
+  url = "post/databases"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  url = "page/about/"
+  weight = 4
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 99
