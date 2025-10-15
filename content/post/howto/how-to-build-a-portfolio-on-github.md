@@ -81,7 +81,7 @@ This copies sample configs, content, and assets to your root directory.
 Edit `hugo.toml` (Beautiful Hugo uses TOML by default) in the root directory. Key settings for a developer portfolio:
 
 - `baseURL`: Set to `https://yourusername.github.io/` (replace yourusername).
-- `title`: Your portfolio’s name, e.g., "Vinh Pham’s Data Engineer Portfolio".
+- `title`: Your portfolio’s name, e.g., "Vinh Pham - Data Engineer".
 - `theme`: Set to `github.com/halogenica/beautifulhugo`.
 - Custom params: Add your social links, profile details, and enable/disable features.
 
@@ -109,8 +109,8 @@ pygmentsCodefencesGuessSyntax = true
     # id = "XXX"
 
 [Params]
-  homeTitle = "Vinh Pham"
-  subtitle = "Data Engineer| Building Scalable Data Platform"
+  homeTitle = "Building Powerful Data Platform"
+  subtitle = "Data Engineer| Building Powerful Data Platform"
   mainSections = ["post"]
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
@@ -148,27 +148,9 @@ pygmentsCodefencesGuessSyntax = true
   weight = 2
 
 [[menu.main]]
-  parent = "projects"
-  name = "Data Platform"
-  url = "post/data-platform"
-  weight = 1
-
-[[menu.main]]
-  parent = "projects"
-  name = "Infrastructure"
-  url = "post/infrastructure"
-  weight = 2
-
-[[menu.main]]
-  parent = "projects"
-  name = "Databases"
-  url = "post/databases"
-  weight = 3
-
-[[menu.main]]
   name = "About"
   url = "page/about/"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Tags"
