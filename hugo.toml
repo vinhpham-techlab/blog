@@ -19,7 +19,7 @@ pygmentsCodefencesGuessSyntax = true
     # id = "XXX"
 
 [Params]
-  homeTitle = "Vinh Pham"
+  homeTitle = "Vinh Pham - Data Engineer"
   subtitle = "Data Engineer| Building Scalable Data Platform"
   mainSections = ["post"]
   logo = "img/avatar-icon.png"
@@ -76,9 +76,15 @@ pygmentsCodefencesGuessSyntax = true
   weight = 3
 
 [[menu.main]]
+  parent = "projects"
+  name = "How-to"
+  url = "post/howto"
+  weight = 4
+
+[[menu.main]]
   name = "About"
   url = "page/about/"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Tags"
