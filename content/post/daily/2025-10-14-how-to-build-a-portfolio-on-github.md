@@ -198,7 +198,7 @@ Create a GitHub Actions workflow to automate building and deploying your site.
 mkdir -p .github/workflows
 ```
 
-1. Add the `hugo.yml` file (see the artifact above) to `.github/workflows/hugo.yml`. Example `hugo.yml`:
+1. Add the `hugo.yml` file to `.github/workflows/`. Example `hugo.yml`:
 
 ```yaml
 name: Build and deploy
@@ -311,7 +311,7 @@ jobs:
 
 ### Step 7: Deploy to GitHub Pages
 
-1. Create a GitHub repository named `blog.github.io`.
+1. Create a GitHub repository named `blog`.
 2. Commit and push:
 
 ```bash
