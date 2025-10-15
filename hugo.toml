@@ -19,7 +19,7 @@ pygmentsCodefencesGuessSyntax = true
     # id = "XXX"
 
 [Params]
-  homeTitle = "Building Powerful Data Platform"
+  homeTitle = "Vinh Pham"
   subtitle = "Data Engineer| Building Powerful Data Platform"
   mainSections = ["post"]
   logo = "img/avatar-icon.png"

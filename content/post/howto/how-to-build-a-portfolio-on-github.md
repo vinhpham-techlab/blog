@@ -109,11 +109,9 @@ pygmentsCodefencesGuessSyntax = true
     # id = "XXX"
 
 [Params]
-  homeTitle = "Building Powerful Data Platform"
+  homeTitle = "Vinh Pham"
   subtitle = "Data Engineer| Building Powerful Data Platform"
   mainSections = ["post"]
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
@@ -141,11 +139,6 @@ pygmentsCodefencesGuessSyntax = true
   name = "Blog"
   url = "/"
   weight = 1
-
-[[menu.main]]
-  identifier = "projects"
-  name = "Projects"
-  weight = 2
 
 [[menu.main]]
   name = "About"
